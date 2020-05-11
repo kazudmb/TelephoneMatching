@@ -20,8 +20,18 @@ class MainActivity : AppCompatActivity() {
         val adRequest = AdRequest.Builder().build()
         mAdView.loadAd(adRequest)
 
-        call_button.setOnClickListener {
+        button_call.setOnClickListener {
             val intent = Intent(this, TelephoneActivity::class.java)
+            startActivity(intent)
+        }
+
+        button_login_email.setOnClickListener {
+            val intent = Intent(this, LoginEmailActivity::class.java)
+            startActivity(intent)
+        }
+
+        button_login_google.setOnClickListener {
+            val intent = Intent(this, LoginGoogleActivity::class.java)
             startActivity(intent)
         }
     }

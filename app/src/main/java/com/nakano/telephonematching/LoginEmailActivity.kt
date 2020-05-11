@@ -6,13 +6,13 @@ import android.util.Log
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.auth.FirebaseAuth
-import kotlinx.android.synthetic.main.activity_login.*
+import kotlinx.android.synthetic.main.activity_login_email.*
 
-class LoginActivity : AppCompatActivity() {
+class LoginEmailActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_login)
+        setContentView(R.layout.activity_login_email)
 
         login_button.setOnClickListener {
             signIn(field_email.text.toString(), field_password.text.toString())
@@ -76,6 +76,6 @@ class LoginActivity : AppCompatActivity() {
     }
 
     companion object {
-        private const val TAG = "LoginActivity"
+        private const val TAG = "LoginEmailActivity"
     }
 }
