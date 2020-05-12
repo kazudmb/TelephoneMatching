@@ -28,6 +28,13 @@
             android:text="LoginGoogle"
     />
 
+    <Button
+            android:id="@+id/button_login_twitter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LoginTwitter"
+    />
+
     <com.google.android.gms.ads.AdView
             xmlns:ads="http://schemas.android.com/apk/res-auto"
             android:id="@+id/adView"

@@ -34,5 +34,10 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, LoginGoogleActivity::class.java)
             startActivity(intent)
         }
+
+        button_login_twitter.setOnClickListener {
+            val intent = Intent(this, LoginTwitterActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
