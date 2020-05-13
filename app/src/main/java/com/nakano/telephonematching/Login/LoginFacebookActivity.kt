@@ -1,4 +1,4 @@
-package com.nakano.telephonematching
+package com.nakano.telephonematching.Login
 
 import android.content.Intent
 import android.os.Bundle
@@ -14,6 +14,7 @@ import com.facebook.login.LoginManager
 import com.facebook.login.LoginResult
 import com.google.firebase.auth.FacebookAuthProvider
 import com.google.firebase.auth.FirebaseAuth
+import com.nakano.telephonematching.R
 import kotlinx.android.synthetic.main.activity_login_facebook.*
 
 class LoginFacebookActivity : AppCompatActivity() {

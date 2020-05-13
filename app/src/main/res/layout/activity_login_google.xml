@@ -6,7 +6,7 @@
         android:id="@+id/login_google_actvity"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".LoginGoogleActivity">
+        tools:context=".Login.LoginGoogleActivity">
 
     <com.google.android.gms.common.SignInButton
             android:id="@+id/button_sign_in_google"

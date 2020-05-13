@@ -1,4 +1,4 @@
-package com.nakano.telephonematching
+package com.nakano.telephonematching.Login
 
 import android.os.Bundle
 import android.text.TextUtils
@@ -6,6 +6,7 @@ import android.util.Log
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.auth.FirebaseAuth
+import com.nakano.telephonematching.R
 import kotlinx.android.synthetic.main.activity_login_email.*
 
 class LoginEmailActivity : AppCompatActivity() {

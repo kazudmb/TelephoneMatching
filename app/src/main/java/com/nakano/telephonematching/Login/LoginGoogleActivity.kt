@@ -1,4 +1,4 @@
-package com.nakano.telephonematching
+package com.nakano.telephonematching.Login
 
 import android.content.Intent
 import android.os.Bundle
@@ -12,6 +12,7 @@ import com.google.android.gms.common.api.ApiException
 import com.google.android.material.snackbar.Snackbar
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.GoogleAuthProvider
+import com.nakano.telephonematching.R
 import kotlinx.android.synthetic.main.activity_login_google.*
 
 class LoginGoogleActivity : AppCompatActivity() {
@@ -74,7 +75,9 @@ class LoginGoogleActivity : AppCompatActivity() {
 
     private fun signIn() {
         val signInIntent = googleSignInClient.signInIntent
-        startActivityForResult(signInIntent, RC_SIGN_IN)
+        startActivityForResult(signInIntent,
+            RC_SIGN_IN
+        )
     }
 
     private fun revokeAccess() {

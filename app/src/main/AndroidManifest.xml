@@ -22,23 +22,17 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-        <activity android:name=".LoginPhoneActivity">
+        <activity android:name=".LoginActivity">
         </activity>
-
-        <meta-data
-                android:name="com.google.android.gms.ads.APPLICATION_ID"
-                android:value="ca-app-pub-3944557252479495~7603711281"/>
-        <meta-data
-                android:name="com.facebook.sdk.ApplicationId"
-                android:value="@string/facebook_app_id"/>
-
-        <activity android:name=".LoginFacebookActivity">
+        <activity android:name=".Login.LoginPhoneActivity">
         </activity>
-        <activity android:name=".LoginTwitterActivity">
+        <activity android:name=".Login.LoginTwitterActivity">
         </activity>
-        <activity android:name=".LoginGoogleActivity">
+        <activity android:name=".Login.LoginGoogleActivity">
         </activity>
-        <activity android:name=".LoginEmailActivity">
+        <activity android:name=".Login.LoginEmailActivity">
+        </activity>
+        <activity android:name=".Login.LoginFacebookActivity">
         </activity>
         <activity
                 android:name="com.facebook.FacebookActivity"
@@ -69,6 +63,13 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+
+        <meta-data
+                android:name="com.google.android.gms.ads.APPLICATION_ID"
+                android:value="ca-app-pub-3944557252479495~7603711281"/>
+        <meta-data
+                android:name="com.facebook.sdk.ApplicationId"
+                android:value="@string/facebook_app_id"/>
     </application>
 
 </manifest>

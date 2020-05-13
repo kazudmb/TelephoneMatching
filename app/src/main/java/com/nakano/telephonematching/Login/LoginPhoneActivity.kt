@@ -1,4 +1,4 @@
-package com.nakano.telephonematching
+package com.nakano.telephonematching.Login
 
 import android.os.Bundle
 import android.text.TextUtils
@@ -9,6 +9,7 @@ import com.google.android.material.snackbar.Snackbar
 import com.google.firebase.FirebaseException
 import com.google.firebase.FirebaseTooManyRequestsException
 import com.google.firebase.auth.*
+import com.nakano.telephonematching.R
 import kotlinx.android.synthetic.main.activity_login_phone.*
 import java.util.concurrent.TimeUnit
 

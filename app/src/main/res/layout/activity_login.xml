@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".LoginActivity">
+
+    <Button
+            android:id="@+id/button_login_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LoginEmail"
+    />
+
+    <Button
+            android:id="@+id/button_login_google"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LoginGoogle"
+    />
+
+    <Button
+            android:id="@+id/button_login_twitter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LoginTwitter"
+    />
+
+    <Button
+            android:id="@+id/button_login_facebook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LoginFaceBook"
+    />
+
+    <Button
+            android:id="@+id/button_login_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LoginPhone"
+    />
+
+</LinearLayout>

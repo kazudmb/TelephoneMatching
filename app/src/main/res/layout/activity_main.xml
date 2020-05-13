@@ -8,45 +8,17 @@
         tools:context=".MainActivity">
 
     <Button
+            android:id="@+id/button_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="login"
+    />
+
+    <Button
             android:id="@+id/button_call"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="call"
-    />
-
-    <Button
-            android:id="@+id/button_login_email"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="LoginEmail"
-    />
-
-    <Button
-            android:id="@+id/button_login_google"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="LoginGoogle"
-    />
-
-    <Button
-            android:id="@+id/button_login_twitter"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="LoginTwitter"
-    />
-
-    <Button
-            android:id="@+id/button_login_facebook"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="LoginFaceBook"
-    />
-
-    <Button
-            android:id="@+id/button_login_phone"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="LoginPhone"
     />
 
     <com.google.android.gms.ads.AdView

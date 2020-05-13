@@ -1,4 +1,4 @@
-package com.nakano.telephonematching
+package com.nakano.telephonematching.Login
 
 import android.os.Bundle
 import android.util.Log
@@ -7,6 +7,7 @@ import com.google.android.gms.tasks.OnSuccessListener
 import com.google.firebase.auth.AuthResult
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.OAuthProvider
+import com.nakano.telephonematching.R
 
 class LoginTwitterActivity : AppCompatActivity() {
 
