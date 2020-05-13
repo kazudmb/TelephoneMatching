@@ -44,5 +44,10 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, LoginFacebookActivity::class.java)
             startActivity(intent)
         }
+
+        button_login_phone.setOnClickListener {
+            val intent = Intent(this, LoginPhoneActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
