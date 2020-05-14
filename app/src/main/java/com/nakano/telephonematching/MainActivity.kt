@@ -29,5 +29,10 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, TelephoneActivity::class.java)
             startActivity(intent)
         }
+
+        button_profile.setOnClickListener {
+            val intent = Intent(this, ProfileActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
