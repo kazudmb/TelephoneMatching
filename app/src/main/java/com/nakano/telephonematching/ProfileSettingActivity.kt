@@ -2,6 +2,7 @@ package com.nakano.telephonematching
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.widget.Toolbar
 
 class ProfileSettingActivity : AppCompatActivity() {
 
@@ -9,8 +10,8 @@ class ProfileSettingActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_profile_setting)
 
-//        val toolbar = findViewById<Toolbar>(R.id.tool_bar)
-//        toolbar.title = "プロフィール変更"
-//        setSupportActionBar(toolbar)
+        val toolbar = findViewById<Toolbar>(R.id.tool_bar)
+        toolbar.title = "プロフィール変更"
+        setSupportActionBar(toolbar)
     }
 }
