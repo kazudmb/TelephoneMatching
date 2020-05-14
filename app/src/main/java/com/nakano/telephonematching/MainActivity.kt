@@ -34,5 +34,10 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, ProfileActivity::class.java)
             startActivity(intent)
         }
+
+        button_profile_setting.setOnClickListener {
+            val intent = Intent(this, ProfileSettingActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
