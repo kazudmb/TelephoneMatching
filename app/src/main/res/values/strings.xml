@@ -13,6 +13,7 @@
     <string name="explanation_of_resetting">登録時に入力したメールアドレスを入力してください。パスワード再設定の手順を送信します。</string>
     <string name="new_registration">新規登録</string>
     <string name="login">ログイン</string>
+    <string name="login_anonymous">匿名ログイン</string>
     <string name="logout">ログアウト</string>
     <string name="forgot_password">＊パスワードを忘れた方はこちら</string>
     <string name="number_of_visits">来店回数：</string>

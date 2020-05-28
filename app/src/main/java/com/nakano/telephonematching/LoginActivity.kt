@@ -12,6 +12,11 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
 
+        button_login_anonymous.setOnClickListener {
+            val intent = Intent(this, LoginAnonymousActivity::class.java)
+            startActivity(intent)
+        }
+
         button_login_email.setOnClickListener {
             val intent = Intent(this, LoginEmailActivity::class.java)
             startActivity(intent)
